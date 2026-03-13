@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ffccd5 0%, #590d22 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ body {
 .profile-name {
     font-size: 28px;
     font-weight: 700;
-    color: #1976d2;
+    color: #590d22;
     margin-bottom: 8px;
     letter-spacing: -0.5px;
 }
@@ -80,7 +80,7 @@ body {
 .profile-lastname {
     font-size: 24px;
     font-weight: 500;
-    color: #424242;
+    color: #ffccd5;
     margin-bottom: 16px;
 }
 
@@ -92,7 +92,7 @@ body {
 
 .profile-details p {
     font-size: 16px;
-    color: #666;
+    color: #ffccd5;
     font-weight: 400;
 }
 
@@ -103,7 +103,7 @@ body {
     gap: 12px;
     font-size: 20px;
     font-weight: 600;
-    color: #1976d2;
+    color: #ff4d6d;
     margin-bottom: 20px;
     padding-bottom: 8px;
     border-bottom: 2px solid #e3f2fd;
@@ -111,7 +111,7 @@ body {
 
 .section-title .material-icons {
     font-size: 24px;
-    color: #1976d2;
+    color: #ff4d6d;
 }
 
 /* ===== SECCIÓN DE HABILIDADES ===== */
@@ -127,7 +127,7 @@ body {
 }
 
 .skill-item {
-    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    background: linear-gradient(135deg, #f5ebe0 0%, #fff0f3 100%);
     padding: 16px;
     border-radius: 12px;
     text-align: center;
@@ -137,14 +137,14 @@ body {
 
 .skill-item:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(25, 118, 210, 0.2);
-    background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+    box-shadow: 0 8px 16px rgba(97, 14, 40, 0.2);
+    background: linear-gradient(135deg, #fff0f3 0%, #ffccd5 100%);
 }
 
 .skill-name {
     font-size: 16px;
     font-weight: 500;
-    color: #1976d2;
+    color: #ff4d6d;
 }
 
 /* ===== SECCIONES DE FAVORITOS ===== */
@@ -167,11 +167,11 @@ body {
     color: #424242;
     font-weight: 400;
     transition: all 0.3s ease;
-    border-left: 4px solid #1976d2;
+    border-left: 4px solid #ff4d6d;
 }
 
 .favorite-item:hover {
-    background: #e3f2fd;
+    background: #ff4d6d;
     transform: translateX(4px);
 }
 
@@ -303,15 +303,15 @@ body {
     }
     
     .profile-name {
-        color: #64b5f6;
+        color: #ff4d6d;
     }
     
     .profile-lastname {
-        color: #e0e0e0;
+        color: #ff4d6d;
     }
     
     .profile-details p {
-        color: #b0b0b0;
+        color: #ffccd5;
     }
     
     .favorite-item {
